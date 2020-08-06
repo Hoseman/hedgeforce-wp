@@ -1,0 +1,502 @@
+//Media queries
+@media only screen and (max-width: 1700px){
+    #main-carousel {
+        max-width:1400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 5.4rem;
+    }
+}
+@media only screen and (max-width: 1450px){
+    #main-carousel {
+        max-width:100%;
+    }
+}
+@media only screen and (max-width: 1350px){
+    #myCarousel .carousel-caption {
+        top: 150px;
+    }
+    #myCarousel .carousel-caption h1 {
+        font-size: 3.0rem;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 4rem;
+    }
+    #case-studies {
+        background: #000;
+        padding: 5rem 12rem 6rem 12em;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #featurette-1 .featurette-1 {
+        height: 495px;
+    }
+    #parralax .parralax-container {
+        padding: 9rem 10rem;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    #header .navbar li a {
+        font-size: 0.8rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    #myCarousel .carousel-caption {
+        top: 105px;
+    }
+    #myCarousel .carousel-caption h1 {
+        font-size: 2.9rem;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 3rem;
+    }
+    #header .navbar .navbar-brand-home-link {
+        display: none;
+    }
+    #featurette-1-grey-panel {
+        padding: 9.5rem 2rem 4rem 2rem;
+    }
+
+}    
+
+@media only screen and (max-width: 1050px){
+    #myCarousel .carousel-caption {
+        top: 40px;
+        left: 6.5%;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 2rem;
+        width:115px;
+    }
+    #myCarousel .carousel-caption h1 {
+        font-size: 2.3rem;
+    }
+    #myCarousel .carousel-caption p {
+        font-size: 0.88rem;
+    }
+    #header .navbar .nav-item {
+        padding: 0.15rem 0.1rem 0.5rem 0.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    #featurette-1 .featurette-text-panel {
+        padding: 3rem 3.0rem 3.6rem 3.5rem;
+    }
+    #featurette-1 .featurette-text-panel p {
+        font-size: 0.89rem;
+    }
+    #featurette-1 .featurette-1 {
+        margin-left: 0.2rem;
+    }
+    #featurette-1 h2 {
+        font-size: 2.0rem;
+        width: 100%;
+        text-align: center;
+    }
+    #header .header-social-icons {
+        position: absolute;
+        right: 5.5rem;
+    }
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: $darkgrey;
+        border:0;
+    }
+    #featurette-2-column img {
+        margin-bottom:2rem;
+    }
+    #case-studies {
+        padding: 5rem 8rem 6rem 8rem;
+    }
+    #our-clients {
+        padding: 4rem 0 2rem 0;
+    }
+    #ideas-inspiration .ideas-container p {
+        margin-top: -31px;
+        padding: 0.4rem 0.9rem;
+        width: 130px;
+        font-size: 0.8rem;
+    }
+    #footer .established {
+        padding: 0 1rem 2rem 0;
+    }
+    #footer-nav .signoff-right {
+        float: left;
+    }
+    #footer .established {
+        padding: 0 1rem 3rem 0;
+    }
+    #footer .footer-column {
+        margin-left:-13.5px;
+        margin-bottom:2rem;
+    }
+    #featurette-1 .featurette-1 {
+        height: 395px;
+    }
+    #featurette-1-grey-panel h3 {
+        width: 80%;
+    }
+    #featurette-3 .featurette-3b .featurette-text-panel {
+        padding: 2rem 2rem 3rem 3rem;
+    }
+    #featurette-3 .featurette-text-panel {
+        padding: 2rem 5rem 2rem 3rem;
+    }
+    /* mobile menu styling */
+    #header .navbar .instant-hedges a:hover {
+        border-bottom: 2px solid transparent !important;
+    }
+    #header .navbar .hedge-rental a:hover {
+        border-bottom: 2px solid transparent !important;
+    }
+    #header .navbar .maze-rental a:hover {
+        border-bottom: 2px solid transparent !important;
+    }
+    #header .navbar .nav-item {
+        padding: 0.15rem 0rem 0.5rem 0rem;
+        background: #eee;
+        border-bottom: 1px solid #ccc;
+        margin: 0;
+    }
+    #header .navbar {
+        padding: 0;
+    }
+    #header .navbar .navbar-brand {
+        margin-left: 1rem;
+    }
+    #header .header-social-icons {
+        top: 0.7rem;
+    }
+    #header .navbar li a {
+        padding-left: 1rem;
+        color:$black;
+    }
+    #header .navbar .instant-hedges a {
+        font-weight: 700;
+    }
+    #header .navbar .hedge-rental a {
+        font-weight: 700;
+    }
+    #header .navbar .maze-rental a {
+        font-weight: 700;
+    }
+    #header .navbar .container-fluid {
+        padding: 1rem 0 0.8rem 0;
+    }
+    #header .navbar .dropdown-menu {
+        background-color: #fff !important;
+        margin: 0.4rem 0 0 0;
+        padding: 0;
+        & img {
+            display:none;
+        }
+        & h5 {
+            text-align:left;
+            & a {
+                padding:0;
+            }
+        }
+    }
+
+    /* mobile menu styling */
+} 
+
+@media only screen and (max-width: 850px){
+    #myCarousel .carousel-caption {
+        top: 30px;
+    }
+    #myCarousel .carousel-caption h1 {
+        font-size: 2.0rem;
+    }
+    #myCarousel .carousel-caption p {
+        font-size: 0.85rem;
+    }
+}
+@media only screen and (max-width: 767px){
+    #myCarousel .carousel-caption {
+        right: 20%;
+    }
+    #featurette-1 .featurette-text-panel p {
+        line-height: 1.45rem;
+        font-size: 0.88rem;
+    }
+    #featurette-1-grey-panel h3 {
+        color: #fff;
+        font-weight: 400;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2.5rem;
+    }
+    #three-columns .three-column {
+        padding: 0rem 0rem;
+    }
+    #three-columns h4 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding: 0.5rem 0rem;
+    }
+    #three-columns p {
+        font-size: 0.95rem;
+    }
+    #three-columns {
+        padding: 2.8rem 0;
+    }
+    #case-studies {
+        padding: 5rem 5rem 6rem 5rem;
+    }
+    #footer .established {
+        padding: 0 1rem 4rem 0;
+    }
+    #featurette-1 .featurette-text-panel {
+        padding: 1.6rem 1.7rem 2.3rem 2.2rem;
+        width:70%;
+    }
+    #featurette-3 .featurette-3b .featurette-text-panel {
+        padding: 2rem 0rem 3rem 0rem;
+        width:100%;
+    }
+    #featurette-3 h2 {
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-align: left;
+        margin-left: auto;
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+        position: relative;
+        z-index: 9;
+    }
+    #parralax .parralax-container {
+        padding: 9rem 5rem;
+    }
+}
+@media only screen and (max-width: 700px){
+    #myCarousel .carousel-caption {
+        right: 5%;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 1.25rem;
+        width: 100px;
+    }
+    #parralax .parralax-container {
+        padding: 5rem 2.5rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    #myCarousel .carousel-caption {
+        right: 20%;
+    }
+    .carousel-indicators li {
+        padding: 0.1rem 0.6rem;
+        width: 90px;
+    }
+    .carousel-indicators {
+        margin-left: -1.05rem;
+    }
+} 
+@media only screen and (max-width: 575px){
+    .carousel-controls-container {
+       display:none;
+    }
+    .carousel-indicators {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    #myCarousel {
+        & .mobile-slide {
+            display:block;
+        }
+        & .desktop-slide {
+            display:none;
+        }
+    }
+    #three-columns {
+        padding: 0.5rem 0 2.8rem 0;
+        & .three-column {
+            margin: 1.5rem 0;
+        }
+        & .border-1 {
+            border-left: 0px !important;
+            border-top: 1px solid #dee2e6!important;
+        }
+        & .border-2 {
+            border-left: 0px !important;
+            border-bottom: 1px solid #dee2e6!important;
+        }
+        & i {
+            font-size: 3.4rem;
+            margin-bottom: 0.5rem;
+            float: left;
+            padding: 1rem;
+        }
+        & .text-center {
+            text-align:left !important;
+        }
+    }
+    #featurette-2-column {
+        padding: 3rem 0;
+    }
+    #footer-nav {
+        padding: 0 1rem 4rem 1rem;
+    }
+    #footer {
+        padding: 3rem 1rem 0 1rem;
+    }
+    #footer-nav .signoff-left a {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        line-height:0.65rem;
+    }
+    #footer-nav .signoff-right {
+        float: left;
+        font-size: 0.7rem;
+    }
+    #footer .social-icons-footer {
+        margin-top: 1rem;
+        text-align:left;
+    }
+    #footer .social-icons-footer i {
+        margin-right: 1rem;
+        margin-left:0;
+    }
+    #reviews .testimonials-heading {
+        margin-top: 3.5rem;
+    }
+    #footer .footer-column {
+        display:none;
+    }
+    #footer .social-icons-footer {
+        display:none;
+    }
+    #footer .established {
+        padding: 0 0rem 2rem 0;
+        border-bottom: 1px solid $lightgrey;
+        margin-bottom: 1.5rem;
+    }
+    #footer .btn-primary {
+        padding: 0.55rem 1.5rem;
+    }
+    #footer .footer-form .form-firstname {
+        background: #F0F0F0;
+        border: 0;
+    }
+    #footer .footer-form .form-lastname {
+        background: #F0F0F0;
+        border: 0;
+    }
+    #footer .footer-form .form-email {
+        background: #F0F0F0;
+        border: 0;
+    }
+    .company-logo {
+        width:128px;
+    }
+    .carousel-inner{
+        background:$black;
+        & img {
+            opacity:0.65;
+        }
+    }
+    #featurette-3 .featurette-3b .featurette-text-panel {
+        padding: 2rem 1rem 0rem 1rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #case-studies {
+        padding: 5rem 2rem 6rem 2rem;
+    }
+    #ideas-inspiration .ideas-container p {
+        margin-top: -31px;
+        padding: 0.4rem 0.9rem;
+        width: 130px;
+        font-size: 0.9rem;
+    }
+    #featurette-1 .featurette-text-panel {
+        width: 100%;
+        background: $white;
+        margin: 0;
+        padding: 1.2rem;
+    }
+    #featurette-1 .featurette-1 {
+        margin: 0rem;
+        height:auto;
+    }
+    #featurette-1-grey-panel {
+        margin-top: 0rem;
+    }
+    #featurette-1 .featurette-text-panel {
+        position: relative;
+    }
+    #featurette-1-grey-panel {
+        padding: 5.0rem 0.5rem 4rem 0.5rem;
+    }
+    .header-social-icons i {
+        display:none;
+    }
+    #header .btn-primary {
+        padding: 0.5rem 1.0rem;
+    }
+    #three-columns h4 {
+        font-size: 1rem;
+    }
+    #featurette-3 .featurette-text-panel {
+        width: 80%;
+    }
+    #featurette-3 h2 {
+        font-size: 1.4rem;
+    }
+    #parralax .parralax-container {
+        padding: 3rem 2.5rem;
+    }
+    #parralax h2 {
+        font-size: 2.0rem;
+    }
+    #reviews h3 {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 360px){
+    .company-logo {
+        width: 90px;
+        margin-left: 7rem;
+    }
+    #myCarousel .carousel-caption h1 {
+        font-size: 1.77rem;
+    }
+    #myCarousel .carousel-caption {
+        right: 5%;
+    }
+    #featurette-3 .featurette-text-panel {
+        padding: 1.0rem 3rem 1.0rem 3rem;
+    }
+    #reviews h3 {
+        font-size: 1.2rem;
+        padding-right: 0;
+    }
+    #header .btn-primary {
+        padding: 0.5rem 0.8rem;
+        left: 1rem;
+    }
+    #header .header-social-icons {
+        top: 0.7rem;
+        left: 1.2rem;
+    }
+    #three-columns i {
+        margin-bottom: 2rem;
+    }
+    #three-columns p {
+        font-size: 0.88rem;
+    }
+    #three-columns h4 {
+        padding: 0.5rem 0rem;
+        margin-bottom: 0;
+    }
+}
